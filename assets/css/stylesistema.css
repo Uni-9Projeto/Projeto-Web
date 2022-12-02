@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #323232;
+    }
+    
+    body{
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url("../img/telaimagem.jpg");
+    background-attachment: fixed;
+    }
+    
+    
+    /* tela de fundo */
+    .caixa{
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 30px 30px;
+    width: 55%; /*largura*/
+    /*height: 50%;*/
+    margin-left: 23%; /*lado*/
+    margin-top: 160px;  /*para cima e baixo*/
+    margin-bottom: 40px;
+    }
+    
+    .caixa > input ~  label{
+    margin-top: 30px;
+    }
+
+    
