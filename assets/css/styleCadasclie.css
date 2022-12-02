@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #323232;
+    }
+    
+    body{
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url("../img/telaimagem.jpg");
+    background-attachment: fixed;
+    }
+    
+    .form{
+    height: 60%;
+    margin-left: 25%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    }
+    
+    /* tela de fundo */
+    .caixa{
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 70%;
+    }
+    
+    .caixa > input ~  label{
+    margin-top: 30px;
+    }
+    

@@ -1,0 +1,33 @@
+/* Cores principais */
+:root {
+    --azul: #29258F;
+    --azul-claro:#5c58db;
+    --amarelo: #dbbf35;
+    --amarelo-claro:#ffe66b;
+    --amarelo-escuro: #8f7a14;
+    --cinza:#f5f5f5;
+}
+
+body{
+background-color: var(--cinza);
+background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover;
+background-attachment: fixed;
+background-image: url("../img/telaimagem.jpg");
+}
+
+.container{
+    background-color: white;
+    padding: 10%;
+}
+.botao-grupo{
+    display: flex;
+    justify-content: center;
+}
+.botao-grupo a{
+    margin-top: 2%;
+    margin-inline: 10%;
+    padding: 1%;
+    padding-inline: 10%;
+}
